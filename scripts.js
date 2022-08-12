@@ -9,7 +9,7 @@ function leiamais(){
         btnLeiaMais.innerHTML="leia mais";
     }else{
         pontos.style.display="none";
-        maisTexto.style.display="none";
+        maisTexto.style.display="inline";
         btnLeiaMais.innerHTML="leia menos";
     }
 }
