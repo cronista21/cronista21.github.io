@@ -42,28 +42,3 @@
     transition: .4s linear .2s;
     height: 0;
   }
-  
-  .option{
-    padding: 8px 0;
-    font-weight: 500;
-    font-size: 14px;
-    transition: .3s ease-in-out;
-  }
-  
-  .option:hover,
-  .option.selected{
-    color: #00a8ff;
-  }
-  
-  .options-list::-webkit-scrollbar{
-    width: 4px;
-    background-color: #eee;
-  }
-  
-  .options-list::-webkit-scrollbar-thumb{
-    background-color: #00a8ff;
-  }
-  
-  .options-list.active{
-    height: 180px;
-  }
