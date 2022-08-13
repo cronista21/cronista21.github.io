@@ -99,7 +99,7 @@
   left: 0px;
   top: 0px;
   z-index: -1;
-  filter: brightness(-50%);
+  filter: brightness(50%);
 }
 
 .fundoimg2{
