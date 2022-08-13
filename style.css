@@ -99,6 +99,7 @@
   left: 0px;
   top: 0px;
   z-index: -1;
+  opacity: 0.5;
 }
 
 .fundoimg2{
