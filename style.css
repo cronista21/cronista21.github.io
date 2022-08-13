@@ -101,32 +101,34 @@
   z-index: -1;
 }
 
-.fundo2{
+.fundoimg2{
   width: 100%;
   height: 100%;
-  background-repeat: no-repeat;
-  background-image: url(/img2.jpg);
-  background-size: cover;
-  background-attachment: fixed;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
 }
 
-.fundo3{
+.fundoimg3{
   width: 100%;
   height: 100%;
-  background-repeat: no-repeat;
-  background-image: url(/img3.jpg);
-  background-size: cover;
-  background-attachment: fixed;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
 }
 
 .texto{ 
   width: 50%;
   color: #ffffff;
   text-shadow: 0.1em 0.1em 0.1em rgb(110, 110, 110)
+  
 }
 
 .texto2{ 
   width: 50%;
   color: #ffffff;
   text-shadow: 0.1em 0.1em 0.05em #333
+
 }
