@@ -132,7 +132,7 @@
 .texto2{ 
   width: 50%;
   color: #ffffff;
-  text-shadow: 0.1em 0.1em 0.05em #333
+  text-shadow: 0.1em 0.1em 0.05em rgb(75, 75, 75)
 
 }
 
