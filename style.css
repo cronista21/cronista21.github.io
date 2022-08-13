@@ -100,6 +100,7 @@
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: 20%;
+  filter: brightness(50%);
 }
 
 .fundo2{
