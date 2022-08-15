@@ -66,6 +66,21 @@
   .show-menu-btn,.hide-menu-btn{
     display: block;
   }
+<<<<<<< HEAD
+  .header{
+    height: 100px;
+    background: #858585;
+    padding: 0 20px;
+    color: #fff;
+  }
+  .logo{
+    line-height: 100px;
+    float: left;
+    text-transform: uppercase;
+  }
+  
+=======
+>>>>>>> d7206e597d7555110e8b6bfbcafc5ecb5a568474
   .menu{
     position: fixed;
     width: 100%;
@@ -90,6 +105,16 @@
   #chk:checked ~ .menu{
     right: 0;
   }
+<<<<<<< HEAD
+  .content img{
+    width: 100%;
+    max-width: 900px;
+    margin: 20px 0;
+  }
+  .content p{
+    text-align: justify;
+  }
+=======
 }
 
 .fundoimg{
@@ -126,6 +151,7 @@
   width: 50%;
   color: #ffffff;
   text-shadow: 0.1em 0.1em 0.1em rgb(110, 110, 110)
+>>>>>>> d7206e597d7555110e8b6bfbcafc5ecb5a568474
   
 }
 
