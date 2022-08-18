@@ -107,6 +107,17 @@
     text-align: justify;
   }
 
+  .texto{ 
+    width: 50%;
+    color: #ffffff;
+    text-shadow: 0.1em 0.1em 0.05em rgb(75, 75, 75)
+  }
+  .texto div{
+      width: 50%;
+      color: #ffffff;
+      text-shadow: 0.1em 0.1em 0.05em #333
+  }
+
 .texto2{ 
   width: 50%;
   color: #ffffff;
@@ -118,8 +129,15 @@
     text-shadow: 0.1em 0.1em 0.05em #333
 }
 
-.pag1{
-  background-image: url(img.jpg);
+.texto3{ 
+  width: 50%;
+  color: #ffffff;
+  text-shadow: 0.1em 0.1em 0.05em rgb(75, 75, 75)
+}
+.texto2 div{
+    width: 50%;
+    color: #ffffff;
+    text-shadow: 0.1em 0.1em 0.05em #333
 }
 
 .fundoimg{
