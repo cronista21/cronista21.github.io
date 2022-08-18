@@ -134,7 +134,7 @@
   color: #ffffff;
   text-shadow: 0.1em 0.1em 0.05em rgb(75, 75, 75)
 }
-.texto2 div{
+.texto3 div{
     width: 50%;
     color: #ffffff;
     text-shadow: 0.1em 0.1em 0.05em #333
@@ -150,10 +150,6 @@
   filter: brightness(30%);
 }
 
-.pag2{
-  background-image: url(img.jpg);
-}
-
 .fundoimg2{
   width: 100%;
   height: 100%;
@@ -162,10 +158,6 @@
   top: 0px;
   z-index: -1;
   filter: brightness(30%);
-}
-
-.pag3{
-  background-image: url(img.jpg);
 }
 
 .fundoimg3{
