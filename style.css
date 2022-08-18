@@ -20,6 +20,8 @@ body{
   top: 0px;
   z-index: -999;
   filter: brightness(30%);
+  color: #ffffff;
+  text-shadow: 0.1em 0.1em 0.05em rgb(75, 75, 75)
 }
 
 .logo{
@@ -126,3 +128,4 @@ body{
       color: #ffffff;
       text-shadow: 0.1em 0.1em 0.05em #333
   }
+}
