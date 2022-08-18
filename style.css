@@ -98,11 +98,7 @@
   #chk:checked ~ .menu{
     right: 0;
   }
-  .content img{
-    width: 100%;
-    max-width: 900px;
-    margin: 20px 0;
-  }
+  
   .content p{
     text-align: justify;
   }
@@ -146,7 +142,7 @@
   position: fixed;
   left: 0px;
   top: 0px;
-  z-index: -1;
+  z-index: -999;
   filter: brightness(30%);
 }
 
@@ -156,7 +152,7 @@
   position: fixed;
   left: 0px;
   top: 0px;
-  z-index: -1;
+  z-index: -999;
   filter: brightness(30%);
 }
 
@@ -166,7 +162,7 @@
   position: fixed;
   left: 0px;
   top: 0px;
-  z-index: -1;
+  z-index: -999;
   filter: brightness(30%);
 }
 }
