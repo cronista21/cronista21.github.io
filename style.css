@@ -120,16 +120,8 @@
 
 .pag1{
   background-image: url(img.jpg);
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-  filter: brightness(30%);
-
 }
-/*
+
 .fundoimg{
   width: 100%;
   height: 100%;
@@ -139,6 +131,11 @@
   z-index: -1;
   filter: brightness(30%);
 }
+
+.pag2{
+  background-image: url(img.jpg);
+}
+
 .fundoimg2{
   width: 100%;
   height: 100%;
@@ -148,6 +145,11 @@
   z-index: -1;
   filter: brightness(30%);
 }
+
+.pag3{
+  background-image: url(img.jpg);
+}
+
 .fundoimg3{
   width: 100%;
   height: 100%;
@@ -157,6 +159,4 @@
   z-index: -1;
   filter: brightness(30%);
 }
-
 }
-*/
