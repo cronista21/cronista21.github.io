@@ -5,9 +5,9 @@
 }
 .header{
   height: 100px;
-  background: #34495e;
   padding: 0 20px;
-  color: #fff;
+  color: rgb(0, 0, 0);
+  text-shadow: 0.1em 0.1em 0.05em rgb(194, 194, 194)
 }
 .logo{
   line-height: 100px;
@@ -20,7 +20,7 @@
   line-height: 100px;
 }
 .menu a{
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-transform: uppercase;
   text-decoration: none;
   padding: 0 10px;
@@ -41,7 +41,7 @@
 .menu a:hover,
 .show-menu-btn:hover,
 .hide-menu-btn:hover{
-  color: #3498db;
+  color: #9c003f;
 }
 
 #chk{
@@ -50,16 +50,21 @@
   z-index: -1111;
 }
 
-.content{
-  padding: 0 20px;
-}
-.content img{
+.imgaa{
+  background-image: url(img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
-  max-width: 700px;
-  margin: 20px 0;
-}
-.content p{
-  text-align: justify;
+  height: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -999;
+  filter: brightness(60%);
+  }
+p{
+  color: rgb(0, 0, 0);
+  text-shadow: 0.1em 0.1em 0.05em rgb(110, 110, 110)
 }
 
 @media screen and (max-width:800px) {
