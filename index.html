@@ -3,44 +3,36 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
   </head>
-  <body background="img.jpg">
+  <body>
+    <header>
+      <div class="inner-width">
+        <a href="#" class="logo"><img src="logo.png" alt=""></a>
+        <i class="menu-toggle-btn fas fa-bars"></i>
+        <nav class="navigation-menu">
+          <a href="#"><i class="fas fa-home home"></i> Home</a>
+          <a href="#"><i class="fas fa-align-left about"></i> projetos</a>
+          <a href="#"><i class="fab fa-buffer works"></i> sobre</a>
+          <a href="cobrinha.html"><i class="fas fa-users team"></i> snake</a>
+        </nav>
+      </div>
+    </header>
 
-  <div class="header">
-    <h2 class="logo">Dark souls 3</h2>
-    <input type="checkbox" id="chk">
-    <label for="chk" class="show-menu-btn">
-      <i class="fas fa-ellipsis-h"></i>
-    </label>
+    <p class="texto">Não é sobre continuar é sobre não desistir e sempre se levanta</p>
 
-    <ul class="menu">
-      <a href="">home</a>
-      <a href="">projetos</a>
-      <a href="">sobre</a>
-      <a href="cobrinha.html">snake</a>
-      <label for="chk" class="hide-menu-btn">
-        <i class="fas fa-times"></i>
-      </label>
-    </ul>
-  </div>
- 
-    <p class="texto">
-      Site para mostrar dados do bosses de Dark souls 3
-      <br>
-      <br>
-      Lothric é a cidade onde os Lordes das Cinzas se encontram, esses que têm seus deveres como herdeiros da Chama, responsáveis pela manutenção ou extinção da mesma. Entretanto, quando o dever chamou tais Lordes, cada um fugiu para uma parte do mundo, renunciando e negando seu trabalho. Porém, um Inacesos do cemitério, nasceu das cinzas por mais uma vez, para trazer cada lorde em seu devido trono, dando um destino à chama.
-      Em suma, cabe ao Inaceso (o jogador), recolher a alma e cinza de todos os Lordes e as posicionar em seus devidos tronos, para decidir o destino das chamas pela última vez.
-      <br>
-      <br>
-      Fiz esse site para ter um curriculo de front end, e tentar game test, e praticar minha progamação usandi github(nick=crinista21)
-    </p>
-      
-    </div>
+    <a href="img.jpg" class="fundo"></a>
+
+    <script type="text/javascript">
+      $(".menu-toggle-btn").click(function(){
+        $(this).toggleClass("fa-times");
+        $(".navigation-menu").toggleClass("active");
+      });
+    </script>
   </body>
-
 </html>
 
 
