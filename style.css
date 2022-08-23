@@ -60,11 +60,11 @@
   left: 0px;
   top: 0px;
   z-index: -999;
-  filter: brightness(50%);
+  filter: brightness(60%);
   }
 p{
-  color: rgb(44, 44, 44);
-  text-shadow: 0.1em 0.1em 0.05em rgb(41, 41, 41)
+  color: rgb(0, 0, 0);
+  text-shadow: 0.1em 0.1em 0.05em rgb(110, 110, 110)
 }
 
 @media screen and (max-width:800px) {
